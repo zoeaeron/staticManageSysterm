@@ -1,0 +1,35 @@
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrap-layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-col-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* 瀑布流布局 */
+.waterFall{
+    display: flex;
+    flex-direction: row;
+}
+
+.waterFall .column{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* 编辑单个文件或者文件夹 */
+.file-operation {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    z-index: 1;
+  }
